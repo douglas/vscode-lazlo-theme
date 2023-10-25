@@ -1,22 +1,23 @@
 {
-    "name": "theme-dracula",
-    "version": "2.24.3",
-    "displayName": "Dracula Official",
-    "homepage": "https://draculatheme.com/",
-    "description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
-    "publisher": "dracula-theme",
+    "name": "theme-lazlo",
+    "version": "1.0.0",
+    "displayName": "Lazlo",
+    "homepage": "https://github.com/douglas/vscode-lazlo-theme/",
+    "description": "Lazlo Theme. A dark theme for many editors, shells, and more.",
+    "publisher": "douglas",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
-        "package": "vsce package -o ./bin/dracula.vsix",
+        "package": "vsce package -o ./bin/lazlo.vsix",
         "vscode:prepublish": "npm run build",
         "vsce-publish": "vsce publish"
     },
     "maintainers": [
-        "Derek Sifford"
+        "Douglas Soares de Andrade"
     ],
     "contributors": [
+        "Derek Sifford",
         "Krzysztof Wisznarewski",
         "Daniel Ramos",
         "Eric Jackson",
@@ -26,10 +27,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/dracula/visual-studio-code.git"
+        "url": "https://github.com/douglas/vscode-lazlo-theme.git"
     },
     "bugs": {
-        "url": "https://github.com/dracula/visual-studio-code/issues"
+        "url": "https://github.com/douglas/vscode-lazlo-theme/issues"
     },
     "engines": {
         "vscode": "^1.13.0"
@@ -38,6 +39,7 @@
         "Themes"
     ],
     "keywords": [
+        "lazlo",
         "dracula",
         "dark",
         "theme",
@@ -51,14 +53,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dracula",
+                "label": "Lazlo",
                 "uiTheme": "vs-dark",
-                "path": "./theme/dracula.json"
-            },
-            {
-                "label": "Dracula Soft",
-                "uiTheme": "vs-dark",
-                "path": "./theme/dracula-soft.json"
+                "path": "./theme/lazlo.json"
             }
         ]
     },
@@ -70,7 +67,7 @@
     },
     "__metadata": {
         "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Dracula Theme",
+        "publisherDisplayName": "Douglas Soares de Andrade",
         "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
     }
 }

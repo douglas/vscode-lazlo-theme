@@ -1,22 +1,22 @@
-# Dracula for [Visual Studio Code](http://code.visualstudio.com)
+# Lazlo for [Visual Studio Code](http://code.visualstudio.com)
 
-> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
+> An (elegant) dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
 ![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code).
+All instructions can be found at [douglas/vscode-lazlo-theme](https://github.com/douglas/vscode-lazlo-theme).
 
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
 
-[![Derek S.](https://avatars3.githubusercontent.com/u/5240018?v=3&s=70)](https://github.com/dsifford) |
+[![Douglas Andrade](https://avatars.githubusercontent.com/u/411301?v=3&s=70)](https://github.com/douglas) |
 :---: |
-[Derek S.](https://github.com/dsifford) |
+[Douglas Andrade](https://github.com/douglas) |
 
-## Community
+## Community (for Dracula Theme)
 
 * [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
 * [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
